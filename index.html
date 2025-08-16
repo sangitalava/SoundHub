@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoundHub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+</head>
+    <body>
+        <header>
+            <img src="logo.png" alt="" width="100">
+            <h1>SoundHub</h1>
+            <input type="text" name="" id="" placeholder="Search for your favourite song">
+            <a href="#">Premium</a>
+            <a href="#">Support</a>
+            <a href="#">Contact</a>
+            <button>Login</button>
+        </header>
+        <hr>
+
+        <br>
+
+        <div id="main">
+            <div id="left">
+                <div style="display: flex; align-items: center; justify-content: space-between; font-size: 16px; padding: 12px;">
+                    <p>Your Library</p>
+                    <p>+</p>
+                </div>
+
+                <div style="padding: 10px; background-color: #d96969d1; border: 1px solid black; display: flex; align-items: flex-start; flex-direction: column; row-gap: 10px; color: white; border-radius: 20px;">
+                    <h2>Create your first playlist</h2>
+                    <h3>It's easy, we'll help you</h3>
+                    <button style="background-color: white; color: black; font-size: 16px; border-radius: 20px; width: fit-content; padding: 10px; border: none;">Create Playlist</button>
+                </div>
+
+                <div style="padding: 10px; background-color: #d96969d1; border: 1px solid black; display: flex; align-items: flex-start; flex-direction: column; row-gap: 10px; color: white; border-radius: 20px; border-radius: 20px;">
+                    <h2>Create your first playlist</h2>
+                    <h3>It's easy, we'll help you</h3>
+                    <button style="background-color: white; color: black; font-size: 16px; border-radius: 20px; width: fit-content; padding: 10px; border: none;">Create Playlist</button>
+                </div>
+
+
+                <div style="padding: 10px; background-color: #d96969d1; border: 1px solid black; display: flex; align-items: flex-start; flex-direction: column; row-gap: 10px; color: white; border-radius: 20px;">
+                    <h2>Create your first playlist</h2>
+                    <h3>It's easy, we'll help you</h3>
+                    <button style="background-color: white; color: black; font-size: 16px; border-radius: 20px; width: fit-content; padding: 10px; border: none;">Create Playlist</button>
+                </div>
+
+                <div style="padding: 10px; background-color: #d96969d1; border: 1px solid black; display: flex; align-items: flex-start; flex-direction: column; row-gap: 10px; color: white; border-radius: 20px;">
+                    <h2>Create your first playlist</h2>
+                    <h3>It's easy, we'll help you</h3>
+                    <button style="background-color: white; color: black; font-size: 16px; border-radius: 20px; width: fit-content; padding: 10px; border: none;">Create Playlist</button>
+                </div>
+
+            </div>
+
+
+            <div id="right">
+                <h1 style="text-align: center;">Trending Songs</h1>
+
+                <div id="list1">
+                    <div class="song">
+                        <img src="snap.jpg" alt="">
+                        <p>Snap</p>
+                        <p>Lanna Rose</p>
+                        <audio src="song1.mp3" class="song1"></audio>
+                        <button onclick="playMusic('song1', 'Snap')">
+                        <img src="play.png" width="50" class="song1" ></button>
+                    </div>
+
+                    <div class="song">
+                        <img src="Rewrite-star.jpg" alt="">
+                        <p>Rewrtie The Star</p>
+                        <p>James Arthur & Anne-Marie</p>
+                        <audio src="Rewrite The Stars - James Arthur feat. Anne Marie [LyricsVietsub].mp3" class="song2"></audio>
+                        <button onclick="playMusic('song2', 'James Arthur & Anne-Marie')"><img src="play.png" width="50" class="song2"></button>
+                    </div>
+
+                    <div class="song">
+                        <img src="Die-with-smile.jpg" alt="">
+                        <p>Die with the Smile</p>
+                        <p>Bruno Mars &Lady Gaga</p>
+                        <audio src="Lady Gaga, Bruno Mars - Die With A Smile (Lyrics).mp3" class="song3"></audio>
+                        <button onclick="playMusic('song3', 'Die with the Smile')"><img src="play.png" width="50" class="song3" ></button>
+                    </div>
+
+                    <div class="song">
+                        <img src="MarioWinansIDontWannaKnowCDSingleCover.jpg" alt="">
+                        <p>I don't wanna know</p>
+                        <p>Mario</p>
+                        <audio src="Mario Winans - I Don't Wanna Know (Lyrics).mp3" class="song4"></audio>
+                        <button onclick="playMusic('song4', `I don't wanna know`)"><img src="play-button.png" width="50" class="song4"></button>
+                    </div>
+
+
+                    <div class="song">
+                        <img src="LockedAway.png" alt="">
+                        <p>Locked away</p>
+                        <p>Adam Levine</p>
+                        <audio src="R. City - Locked Away ft. Adam Levine.mp3" class="song5"></audio>
+                        <button onclick="playMusic('song5', 'Locked away')"><img src="play.png" width="50" class="song5" ></button>
+                    </div>
+                  
+                    
+                </div>
+
+                <div id="list1">
+                    <div class="song">
+                        <img src="Rihana-diamonds.jpg" alt="">
+                        <p>Diamonds</p>
+                        <p>Rihana</p>
+                        <audio src="Rihanna - Diamonds.mp3" class="song6"></audio>
+                        <button onclick="playMusic('song6', 'Diamonds')"><img src="play.png" width="50" class="song6"></button>
+                    </div>
+
+                    <div class="song">
+                        <img src="One-Kiss.webp" alt="">
+                        <p>One Kiss</p>
+                        <p>Dua Lipa & Calvin</p>
+                        <audio src="Calvin Harris, Dua Lipa - One Kiss (Official Video).mp3" class="song7"></audio>
+                        <button onclick="playMusic('song7', 'One Kiss')"><img src="play.png" width="50" class="song7"></button>
+                    </div>
+                    <div class="song">
+                        <img src="lie.webp" alt="">
+                        <p>Love the way you lie</p>
+                        <p>Rihana &Eminem</p>
+                        <audio src="Eminem - Love The Way You Lie ft. Rihanna.mp3" class="song8"></audio>
+                        <button onclick="playMusic('song8', 'Love the way you lie')"><img src="play.png" width="50" class="song8"></button>
+                    </div>
+
+                    <div class="song">
+                        <img src="APT.jpg" alt="">
+                        <p>APT</p>
+                        <p>Rose & Bruno</p>
+                        <audio src="ROSE & Bruno Mars - APT. (Official Music Video).mp3" class="song9"></audio>
+                        <button onclick="playMusic('song9', 'APT')"><img src="play.png" width="50" class="song9"></button>
+                    </div>
+                    <div class="song">
+                        <img src="weekend.jpg" alt="">
+                        <p>Call Out My Name</p>
+                        <p>The Weekend</p>
+                        <audio src="The Weeknd - Call Out My Name (Official Video).mp3" class="song10"></audio>
+                        <button onclick="playMusic('song10', 'Call Out My Name')"><img src="play.png" width="50" class="song10"></button>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        <div id="player">
+            <p id="sname">Your song </p>
+            <button onclick="pauseMusic()"><img src="play.png" width="50" class="song1" id="player-btn"></button>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
